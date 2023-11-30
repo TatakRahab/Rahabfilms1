@@ -67,9 +67,6 @@ function showSideBoxes() {
     rightBox1.style.width = "20%";
     rightBox1.style.opacity = 1;
 
-    rightBox2.style.width = "20%";
-    rightBox2.style.opacity = 1;
-
 
 
     hideExtraBoxes();
@@ -97,8 +94,7 @@ function hideSideBoxes() {
     rightBox1.style.width = "0";
     rightBox1.style.opacity = 0;
 
-    rightBox2.style.width = "0";
-    rightBox2.style.opacity = 0;
+
 
 
 
@@ -139,10 +135,8 @@ function fadeOutSideBoxes() {
 
     // Fade out the additional right side boxes
     var rightBox1 = document.getElementById("rightBox1");
-    var rightBox2 = document.getElementById("rightBox2");
 
     rightBox1.style.opacity = 0;
-    rightBox2.style.opacity = 0;
 }
 
 

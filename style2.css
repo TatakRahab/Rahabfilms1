@@ -91,7 +91,7 @@ object-fit: cover; /* or "contain" based on your preference */
     position: absolute;
     z-index: 10;
     margin-top: -30px;
-    margin-left: 250px;
+    margin-left: 20px;
     margin-right: auto;
     
     /* Apply gradient for the text */
@@ -205,7 +205,7 @@ object-fit: cover; /* or "contain" based on your preference */
         }
         .side-box {
             position: absolute;
-            top: 230px;
+            top: 280px;
             bottom: 0;
             width: 0;
             height: 300px;
@@ -225,7 +225,7 @@ object-fit: cover; /* or "contain" based on your preference */
         .left-box {
             left: 80px;
             height: 700px;
-            top: 20px;
+            top: 120px;
         }
 
         .right-box {
@@ -236,7 +236,7 @@ object-fit: cover; /* or "contain" based on your preference */
             line-height: 30px;
             height: 240px;
             top:120px;
-            margin-top: 50px;
+            margin-top: 172px;
         }
         .left-box img{
             width: 100%;
@@ -265,24 +265,6 @@ object-fit: cover; /* or "contain" based on your preference */
             right: 199px;
         }
 
-        .right-box-2 {
-            top:470px;
-            right: 199px;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            height: 10px;
-            text-transform: capitalize;
-        }
-
-        .right-box-3 {
-            top: 540px;
-            right: 199px;
-            height: 10px;
-            display: flex;
-            align-items: center;
-            text-align: center;
-        }
          /* Additional styles for the new left and right boxes */
         .extra-box-left,
         .extra-box-right {
@@ -365,7 +347,7 @@ object-fit: cover; /* or "contain" based on your preference */
           }
           
           .ticket-box-left {
-              margin-left: 975px;
+              margin-left: 1075px;
               text-align: center;
               display: flex;
               align-items: center;
@@ -411,7 +393,7 @@ object-fit: cover; /* or "contain" based on your preference */
 
 /* Adjust margin values based on your layout */
 .schedule-box-left {
-    margin-left: 975px;
+    margin-left: 1075px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -421,6 +403,7 @@ object-fit: cover; /* or "contain" based on your preference */
     font-family: 'Poppins';
     font-weight: bold;
     height: 250px;
+    margin-top: 100px;
 
     
 
