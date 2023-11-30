@@ -42,24 +42,7 @@ object-fit: cover; /* or "contain" based on your preference */
 }
 
 /* Apply the animation to your title text */
-.title-page h1 {
-    font-family: "FONTSPRING DEMO - Zuume Rough Regular";
-    font-size: 190px;
-    font-weight: 800;
-    margin: 0;
-    position: absolute;
-    z-index: 10;
-    margin-top: -30px;
-    margin-left: 250px;
-    margin-right: auto;
-    
-    background: linear-gradient(90deg, rgb(212, 200, 200) 50%, rgb(131, 18, 18) 50%);
-    background-size: 200% 100%;
-    background-position: 0% 50%;
-    color: transparent;
-    -webkit-background-clip: text;
-    animation: colorChange 5s linear infinite; /* Adjust the duration as needed */
-}
+
 @keyframes panoramaMotion {
     0% {
         transform: translateX(0);
@@ -93,7 +76,8 @@ object-fit: cover; /* or "contain" based on your preference */
     margin-top: -30px;
     margin-left: 20px;
     margin-right: auto;
-    
+    background-size: 200% 100%;
+    background-position: 0% 50%;
     /* Apply gradient for the text */
     background: linear-gradient(-167deg, rgb(212, 200, 200) 50%, rgb(131, 18, 18) 50%);
     -webkit-background-clip: text;
