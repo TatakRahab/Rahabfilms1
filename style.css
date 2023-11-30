@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 16px; /* Set a base font size for better responsiveness */
+    background-image: url(IMG_3991.JPG);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
