@@ -14,11 +14,12 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-size: 16px; /* Set a base font size for better responsiveness */
 }
 
 .container {
     height: 100%;
-    width: 100%; /* Set width to 100% */
+    width: 100%;
 }
 
 
@@ -37,30 +38,71 @@ object-fit: cover; /* or "contain" based on your preference */
     position: absolute;
     height: 100vh; /* Use viewport height for full-screen height */
     z-index: 0;
-    margin-left: -77px;
 
 }
 
+/* Apply the animation to your title text */
 .title-page h1 {
-    font-family: 'Bebas Neue';
+    font-family: "FONTSPRING DEMO - Zuume Rough Regular";
     font-size: 190px;
     font-weight: 800;
     margin: 0;
     position: absolute;
     z-index: 10;
     margin-top: -30px;
-    margin-left: auto;
-    letter-spacing: 10px;
+    margin-left: 250px;
+    margin-right: auto;
+    
+    background: linear-gradient(90deg, rgb(212, 200, 200) 50%, rgb(131, 18, 18) 50%);
+    background-size: 200% 100%;
+    background-position: 0% 50%;
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: colorChange 5s linear infinite; /* Adjust the duration as needed */
+}
+@keyframes panoramaMotion {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+/* Add media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+    /* Styles for small screens (phones) */
+    .title-page h1 {
+        font-size: 100px; /* Adjust font size for small screens */
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for medium screens (tablets) */
+    .title-page h1 {
+        font-size: 150px; /* Adjust font size for medium screens */
+    }
+}
+
+.title-page h1 {
+    font-family: "FONTSPRING DEMO - Zuume Rough Regular";
+    font-size: 190px;
+    font-weight: 800;
+    margin: 0;
+    position: absolute;
+    z-index: 10;
+    margin-top: -30px;
+    margin-left: 250px;
+    margin-right: auto;
     
     /* Apply gradient for the text */
-    background: linear-gradient(-137deg, rgb(212, 200, 200) 50%, rgb(131, 18, 18) 50%);
+    background: linear-gradient(-167deg, rgb(212, 200, 200) 50%, rgb(131, 18, 18) 50%);
     -webkit-background-clip: text;
     color: transparent;
     
 }
 .title-page h1:hover {
     cursor: pointer;
-    background: linear-gradient(137deg, rgb(212, 200, 200) 50%, rgb(131, 18, 18) 50%);
+    background: linear-gradient(167deg, rgb(212, 200, 200) 50%, rgb(131, 18, 18) 50%);
     -webkit-background-clip: text;
     color: transparent;
     transition: background 10.5s; /* Slow down the background transition */
@@ -414,4 +456,24 @@ object-fit: cover; /* or "contain" based on your preference */
 }
 .menu:hover{
     cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    /* Styles for screens up to 600px wide (typical phone screens) */
+
+    .title-page h1 {
+        font-size: 100px; /* Adjust the font size for smaller screens */
+        margin-left: 50px; /* Adjust the margin */
+    }
+
+    .menu {
+        padding: 20px; /* Adjust padding for smaller screens */
+        font-size: 16px; /* Adjust font size */
+    }
+
+    /* Adjust styles for other elements as needed */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for screens between 601px and 1024px wide (tablets) */
+    /* Adjust styles for medium-sized screens here */
 }
