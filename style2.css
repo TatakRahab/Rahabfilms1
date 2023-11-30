@@ -102,10 +102,7 @@ object-fit: cover; /* or "contain" based on your preference */
 }
 .title-page h1:hover {
     cursor: pointer;
-    background: linear-gradient(167deg, rgb(212, 200, 200) 50%, rgb(131, 18, 18) 50%);
-    -webkit-background-clip: text;
-    color: transparent;
-    transition: background 10.5s; /* Slow down the background transition */
+
 }
 .blurred-text {
     /* Add filter for text blur */
