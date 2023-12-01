@@ -209,7 +209,7 @@ object-fit: cover; /* or "contain" based on your preference */
         .left-box {
             left: 80px;
             height: 700px;
-            top: 120px;
+            top: 50px;
         }
 
         .right-box {
@@ -219,7 +219,7 @@ object-fit: cover; /* or "contain" based on your preference */
             color:white;
             line-height: 30px;
             height: 240px;
-            top:120px;
+            top:80px;
             margin-top: 172px;
         }
         .left-box img{
@@ -229,6 +229,7 @@ object-fit: cover; /* or "contain" based on your preference */
         }
         .right-box1{
             height: 40px;
+            margin-top: -250px;
 
         }
                  /* Additional styles for the new right boxes */
@@ -241,7 +242,7 @@ object-fit: cover; /* or "contain" based on your preference */
         }
 
         .right-box-1 {
-            top:390px;
+            top:350px;
             height: 10px;
             align-items: center;
             text-align: center;
@@ -404,7 +405,9 @@ object-fit: cover; /* or "contain" based on your preference */
     font-weight: bold;
     color: white;
     letter-spacing: 2px;
-    margin-bottom: 400px;
+    margin-bottom: 800px;
+    margin-top: -600px;
+
 
 
 }
