@@ -444,3 +444,77 @@ object-fit: cover; /* or "contain" based on your preference */
     /* Styles for screens between 601px and 1024px wide (tablets) */
     /* Adjust styles for medium-sized screens here */
 }
+@media only screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide (typical tablets) */
+
+    .title-page h1 {
+        font-size: 100px; /* Adjust the font size for smaller screens */
+        margin-left: 20px; /* Adjust the margin */
+    }
+
+    .menu {
+        padding: 20px; /* Adjust padding for smaller screens */
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .side-box.left-box {
+        left: 10px;
+    }
+
+    .side-box.right-box {
+        right: 10px;
+    }
+
+    .side-box.ticket-box-left {
+        left: 10px;
+    }
+
+    .side-box.ticket-box-right {
+        right: 10px;
+    }
+
+    .side-box.schedule-box-left {
+        left: 10px;
+    }
+
+    .side-box.schedule-box-right {
+        right: 10px;
+    }
+
+    /* Adjust styles for other elements as needed */
+}
+
+@media only screen and (max-width: 768px) {
+    .title-page h1 {
+        font-size: 36px;
+    }
+
+    .menu {
+        padding: 10px;
+    }
+
+    .side-box,
+    .extra-box-left,
+    .extra-box-right {
+        width: 100%;
+    }
+
+    .side-box.ticket-box-left,
+    .side-box.ticket-box-right,
+    .side-box.schedule-box-left,
+    .side-box.schedule-box-right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .extra-box-left img,
+    .extra-box-right img {
+        width: 80%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .extra-box-right .pass {
+        font-size: 18px;
+    }
+}
