@@ -518,3 +518,88 @@ object-fit: cover; /* or "contain" based on your preference */
         font-size: 18px;
     }
 }
+
+/* Add a general style for smaller screens */
+@media only screen and (max-width: 768px) {
+    .title-page h1 {
+        font-size: 100px; /* Adjust the font size for smaller screens */
+        margin-left: 20px; /* Adjust the margin */
+    }
+
+    .menu {
+        padding: 20px; /* Adjust padding for smaller screens */
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .side-box,
+    .extra-box-left,
+    .extra-box-right,
+    .ticket-box-left,
+    .ticket-box-right,
+    .schedule-box-left,
+    .schedule-box-right {
+        width: 100%; /* Make the boxes full width on smaller screens */
+    }
+
+    .extra-box-left img,
+    .extra-box-right img {
+        width: 80%; /* Adjust image width for smaller screens */
+        max-width: 300px;
+        height: auto;
+    }
+
+    .extra-box-right .pass {
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .side-box.ticket-box-left,
+    .side-box.ticket-box-right,
+    .side-box.schedule-box-left,
+    .side-box.schedule-box-right {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: center;
+    }
+}
+
+/* Add specific styles for phones */
+@media only screen and (max-width: 680px) {
+    .title-page h1 {
+        font-size: 46px; /* Adjust the font size for smaller screens */
+        margin-left: -400px;
+        display: flex;
+        left: -340px;
+    }
+
+    .menu {
+        padding: 30px; /* Adjust padding for smaller screens */
+        font-size: 16px; /* Adjust font size */
+        height: 200px;
+        margin-left: -20px;
+    }
+    .img{
+        width: 100%;
+        height: 3200px;
+        object-fit: cover; /* or "contain" based on your preference */
+        
+         
+    }
+    .left-box{
+        margin-top: 450px;
+        margin-left: 100px;
+        width: 50%;
+        height: 900px;
+    }
+    .img1{
+        width: 400px;
+        height: 100px;
+    }
+    .right-box{
+        margin-top: 1350px;
+        margin-left: -1300px;
+    }
+    /* Adjust styles for other elements as needed */
+}
+@media only screen and (max-width: 480px) {
+   
+}
+
